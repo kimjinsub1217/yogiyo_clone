@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Yogiyo_clone</string>
+    <string name="address">문화로 115</string>
+    <string name="Button1">
+        <html><b><br>포장</br></b></html>
+
+    </string>
+    <string name="Button2">편의점/마트</string>
+    <string name="Button3">선물하기</string>
+    <string name="titleTextView">우리동네 포커스</string>
+</resources>
