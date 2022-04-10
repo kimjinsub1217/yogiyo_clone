@@ -8,4 +8,12 @@
     <string name="Button2">편의점/마트</string>
     <string name="Button3">선물하기</string>
     <string name="titleTextView">우리동네 포커스</string>
+    <string name="companyText">유한책임회사 위대한상상 사업자정보</string>
+    <string name="yogiyotext">유한책임회사 위대한 상상은 통신판매중개자로서, 상품/거래정보 및 거래와 관련하여 통신판매 당사자의 고의 또는 과실로 소비자에게 발생하는 손해에 대해 책임을 지지 않습니다. 상품 및 거래에 대한 정확한 정보는 해당 판매자에게 직접 확인 바랍니다.\n Copyright YOGIYO.All Rights Reserved.</string>
+    <string name="home">홈</string>
+    <string name="star">찜</string>
+    <string name="search">검색</string>
+    <string name="orderPage">주문내역</string>
+    <string name="myPage">마이요기요</string>
+
 </resources>

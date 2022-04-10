@@ -11,19 +11,28 @@
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/drawable_all_see.xml" value="0.1625" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.1625" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/ic_baseline_celebration_24.xml" value="0.173" />
+        <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.2025" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.173" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/ic_baseline_notifications_none_24.xml" value="0.1625" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.173" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/line.xml" value="0.173" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/rectangle_all_corner_radius.xml" value="0.1625" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/rectangle_all_corner_radius2.xml" value="0.2055" />
+        <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/rectangle_all_corner_radius3.xml" value="0.2055" />
+        <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/selecor_menu_color.xml" value="0.2705" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/drawable/textview.xml" value="0.173" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/layout/activity_item_layout_banner.xml" value="0.1875" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/layout/activity_item_layout_food.xml" value="0.33" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/layout/activity_item_layout_grid.xml" value="0.25" />
-        <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/layout/activity_main.xml" value="0.38165038002171553" />
+        <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/layout/fragment_home.xml" value="0.3619791666666667" />
+        <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/layout/fragment_mypage.xml" value="0.3619791666666667" />
+        <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/layout/fragment_order.xml" value="0.3619791666666667" />
+        <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/layout/fragment_search.xml" value="0.3619791666666667" />
+        <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/layout/fragment_star.xml" value="0.3619791666666667" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/layout/item_layout_banner.xml" value="0.36614583333333334" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/layout/sile_item_container.xml" value="0.1875" />
+        <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.3619791666666667" />
         <entry key="..\:/Project/Yogiyo_clone/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.173" />
       </map>
     </option>
@@ -33,5 +42,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

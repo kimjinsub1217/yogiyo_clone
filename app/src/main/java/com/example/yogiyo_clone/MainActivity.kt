@@ -5,18 +5,25 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
+import com.example.yogiyo_clone.home.HomeFragment
 import com.example.yogiyo_clone.model.BannerItem
 import com.example.yogiyo_clone.model.data.fakeBannerItemList
 import com.example.yogiyo_clone.model.data.fakeBannerItemList2
 import com.example.yogiyo_clone.model.data.fakeGridItemList
 import com.example.yogiyo_clone.model.data.fakeGridItemList2
+import com.example.yogiyo_clone.mypage.MyPageFragment
+import com.example.yogiyo_clone.order.OrderFragment
+import com.example.yogiyo_clone.search.SearchFragment
+import com.example.yogiyo_clone.star.StarFragment
 import com.example.yogiyo_clone.ui.*
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -59,6 +66,28 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val homeFragment = HomeFragment()
+        val starFragment = StarFragment()
+        val searchFragment = SearchFragment()
+        val orderPage = OrderFragment()
+        val myPage = MyPageFragment()
+
+
+        val bottomNavigationView =findViewById<BottomNavigationView>(R.id.bottomNavigationView)
+
+        replaceFragment(homeFragment)
+
+        bottomNavigationView.setOnNavigationItemSelectedListener {
+            when(it.itemId){
+                R.id.home-> replaceFragment(homeFragment)
+                R.id.star-> replaceFragment(starFragment)
+                R.id.search-> replaceFragment(searchFragment)
+                R.id.orderPage->    replaceFragment(orderPage)
+                R.id.myPage->   replaceFragment(myPage)
+            }
+            true
+        }
 
         viewModel = ViewModelProvider(this).get(MainActivityViewModel::class.java)
         viewModel2 = ViewModelProvider(this).get(MainActivityViewModel2::class.java)
@@ -149,4 +178,15 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
+
+
+    private fun replaceFragment(fragment:Fragment){
+        supportFragmentManager.beginTransaction()
+            .apply {
+                replace(R.id.fragmentContainer, fragment)
+                commit()
+            }
+    }
+
+
 }

@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="StatusBar">#D8D8D8</color>
     <color name="font_gray">#7C7B7B</color>
+    <color name="font_gray2">#9F9F9F</color>
+    <color name="gray_cc">#cccccc</color>
 </resources>
